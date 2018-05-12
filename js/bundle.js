@@ -152,6 +152,11 @@ View.prototype.exercise5 = function () {
   //  'data-pos' of every square
 
   //your code here!
+  $('#easel').on('click','li',(e)=>{
+    let $square = $(e.currentTarget);
+    alert($square.attr('data-pos'));
+
+  })
 };
 
 View.prototype.exercise6 = function () {
