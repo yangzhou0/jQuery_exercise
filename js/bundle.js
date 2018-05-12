@@ -180,6 +180,11 @@ View.prototype.exercise7 = function(){
   //rainbow.
 
   //your code here!
+  $('#easel').on("mouseover",'li',function(e){
+    let $color = $(e.currentTarget).css('background-color');
+    console.log($color);
+    // debugger;
+  })
 };
 
 
