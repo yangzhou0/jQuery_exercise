@@ -16,7 +16,6 @@ View.prototype.exercise0 = function () {
 
   //this one completed as an example :) no additional code necessary
   $('li').removeClass("square");
-  cons　
 };
 
 View.prototype.exercise1 = function () {
@@ -24,6 +23,7 @@ View.prototype.exercise1 = function () {
   //Result: Every square should turn orange (we already have a CSS rule)
 
   //your code here!
+  $('li').addClass('orange');
 };
 
 View.prototype.exercise2 = function () {
